@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Merge';
+    src: url('../asset/font/MergeBlack.woff');
+}
+body{
+    font-family: "Merge", sans-serif;
+    margin: 0;
+    padding: 0  ;
+    background-color: snow;
+}
+.main{
+    min-height: 100vh;
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+    z-index: 1;   
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.form-inp{
+    height: 40px;
+    border: 2px dashed #ffd984;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #161616;
+    outline: none;
+    font-family: "Merge", sans-serif;
+
+}
+.btn-add{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ca113c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    font-family: "Merge", sans-serif;
+}
+.btn-add:hover{
+    opacity: 0.9;
+}

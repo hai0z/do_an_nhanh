@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Merge';
+    src: url('../asset/font/MergeBlack.woff');
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ca1133; 
+  }
+
+.banner{
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.food-container{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-block: 95px;
+  
+}
+.food-item-wraper{
+    width: 30%;
+    border-bottom: 2px dashed #ffd984;
+    border-right:2px dashed #ffd984;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+}
+.food-item-wraper:nth-of-type(3n){
+    border-right: none;
+}
+.food-item-wraper:nth-of-type(4n){
+    border-bottom: none;
+}
+.food-item-wraper:nth-of-type(5n){
+    border-bottom: none;
+}
+.food-item-wraper:nth-of-type(6n){
+    border-bottom: none;
+}
+.item-name{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    color: #161616;
+    max-width: 450px;
+    display: flex;
+    flex:0.75;
+    text-align: center;
+    max-width: 450px;
+    font-family: "Merge", sans-serif;
+
+}
+.item-price{
+    font-weight: bold;
+    font-family: "Merge", sans-serif;
+    color: #ce2026;
+    font-size: 1.25em;
+    margin-bottom: 15px;
+}
+.add-to-cart{
+    background-color: #c62026;
+    padding: 7px 30px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.food-item-wraper img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex: 1;
+}
+.pagination{
+    margin-block: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pagination a {
+    color: #000;
+    padding:  12px 18px;
+    text-decoration: none;
+   
+  }
+  .pagination a.active {
+    background-color: #c62026;
+    color: white;
+    border-radius: 50%;
+  }
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+  }

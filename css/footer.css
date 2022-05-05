@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Merge';
+    src: url('../asset/font/MergeBlack.woff');
+}
+.footer {
+    background-color: #c81f34;
+    min-height: 20vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    position: relative;
+
+}
+@keyframes blink {
+    from {
+        color: #fff;
+    }
+    to{
+        color: #ffd984;
+    }
+}
+.footer-content{
+    color: #fff;
+    text-align: center;
+    font-family: "Merge";
+    animation: blink 1s infinite;
+}
+.footer-text{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: "Merge";
+    animation: blink 1s infinite;
+
+}

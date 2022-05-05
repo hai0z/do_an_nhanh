@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/870c14ea660dc49cbcf9c92af21392af?family=Merge);
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+h2,
+h3,
+a {
+	color: #fff;
+    font-family: "Merge", sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+	margin: 0;
+	font-size: 1.45em;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+.main-nav a {
+	color: #fff;
+	font-size: .99em;
+    
+}
+.main-nav a:hover {  
+	color: #ffd477;
+}
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+    background-color: #c81f34;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.header,.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+

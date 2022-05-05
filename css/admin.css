@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: 'Merge';
+    src: url('../asset/font/MergeBlack.woff');
+}
+body {
+    font-family: "Merge", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ffffff; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ca1133; 
+  }
+.main{
+   min-height: 100vh;
+   max-width: 960px;
+   margin: 85px auto;
+}
+img{
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+table td,th{
+    border: 2px dashed #ffd984;
+}
+table td a{
+    color: #161616
+}
+table td a:hover{
+    color: #ca113c
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+}
+.pagination a {
+    color: #000;
+    padding:  12px 18px;
+    text-decoration: none;
+   
+  }
+  .pagination a.active {
+    background-color: #c62026;
+    color: white;
+    border-radius: 50%;
+  }
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+  }
