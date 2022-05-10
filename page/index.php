@@ -17,6 +17,7 @@ $totalPages = ceil($connection->query($totalItems)->num_rows / $itemsPerPage);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đồ ăn nhanh</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../asset/img/icon.png">
 
 </head>
 

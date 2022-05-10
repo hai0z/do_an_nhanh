@@ -11,7 +11,7 @@ if (isset($_POST['add'])) {
     if ($result) {
         $success = true;
     } else {
-        $error = false;
+        $success = false;
     }
 }
 ?>
@@ -24,6 +24,8 @@ if (isset($_POST['add'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New Food</title>
     <link rel="stylesheet" href="../css/add.css">
+    <link rel="icon" href="../asset/img/icon.png">
+
 </head>
 
 <body>

@@ -21,6 +21,7 @@ if (isset($_GET['delete_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin</title>
     <link rel="stylesheet" href="../css/admin.css">
+    <link rel="icon" href="../asset/img/icon.png">
 </head>
 
 <body>
