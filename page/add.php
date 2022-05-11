@@ -30,7 +30,6 @@ if (isset($_POST['add'])) {
 
 <body>
     <?php include './navbar.php' ?>
-    <?php include './sidebar.php' ?>
     <div class="main">
         <h1>Thêm Đồ Ăn</h1>
         <form action="" method="POST" enctype="multipart/form-data">

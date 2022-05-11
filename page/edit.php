@@ -44,7 +44,6 @@ if (isset($_POST['edit'])) {
 
 <body>
     <?php include './navbar.php' ?>
-    <?php include './sidebar.php' ?>
     <div class="main">
         <h1>Sửa</h1>
         <form action="" method="POST" enctype="multipart/form-data">

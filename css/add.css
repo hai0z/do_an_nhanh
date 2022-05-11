@@ -29,7 +29,7 @@ form{
 }
 .form-inp{
     height: 40px;
-    border: 2px dashed #ffd984;
+    border: 2px solid coral;
     border-radius: 5px;
     padding: 0 15px;
     font-size: 16px;

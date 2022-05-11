@@ -25,10 +25,12 @@ if (isset($_GET['delete_id'])) {
 </head>
 
 <body>
-    <?php include './sidebar.php' ?>
     <?php include './navbar.php' ?>
     <div class="main">
-        <h1>Quản lí đồ ăn</h1>
+        <div class="top-container">
+            <h1>Quản lí đồ ăn</h1>
+            <a href="add.php" class="add">Thêm</a>
+        </div>
         <table>
             <thead>
                 <th>STT</th>

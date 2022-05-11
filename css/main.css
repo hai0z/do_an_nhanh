@@ -16,7 +16,7 @@ html {
     width: 5px;
   }
   ::-webkit-scrollbar-track {
-    background: #ffffff; 
+    background: seashell; 
   }
   ::-webkit-scrollbar-thumb {
     background: #ca1133; 
@@ -53,6 +53,10 @@ html {
     align-items: center;
     padding: 15px;
 }
+.food-item-wraper:hover img{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
 .food-item-wraper:nth-of-type(3n){
     border-right: none;
 }
@@ -75,6 +79,7 @@ html {
     text-align: center;
     max-width: 450px;
     font-family: "Merge", sans-serif;
+    margin-top: 10px;
 
 }
 .item-price{
