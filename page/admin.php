@@ -40,16 +40,19 @@ if (isset($_GET['delete_id'])) {
                 <th colspan="2">Chức năng</th>
             </thead>
             <tbody>
-                <?php while ($row = $result->fetch_assoc()) : ?>
+                <?php
+                $i = 1;
+                while ($row = $result->fetch_assoc()) : ?>
                     <tr>
-                        <td><?= $row['id'] ?></td>
+                        <td><?= $i; ?></td>
                         <td><?= $row['name'] ?></td>
                         <td><?= number_format($row['price'], 0, '.', '.'); ?> đ</td>
                         <td><img src="../asset/img/<?= $row['image'] ?>" alt=""></td>
                         <td><a href="edit.php?id=<?= $row['id'] ?>">Sửa</a></td>
                         <td><a href="?delete_id=<?= $row['id'] ?>" onclick="return confirm('Bạn chắc chắn muốn xoá?')">Xóa</a></td>
                     </tr>
-                <?php endwhile; ?>
+                <?php $i++;
+                endwhile; ?>
             </tbody>
         </table>
         <div>

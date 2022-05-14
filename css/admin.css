@@ -45,12 +45,13 @@ body {
     }
 }
 img{
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
 }
 table th,td{
     border-bottom: 2px dashed coral;
+    padding: 20px;
 }
 table td a{
     color: #161616
@@ -63,6 +64,7 @@ table{
     text-align: center;
     width: 100%;
     margin-bottom: 100px;
+
 }
 .pagination{
     display: flex;
@@ -84,4 +86,8 @@ table{
   .pagination a:hover:not(.active) {
     background-color: #ddd;
     border-radius: 50%;
+  }
+  tr:hover img{
+      transform: scale(1.1);
+      transition: all 0.5s;
   }

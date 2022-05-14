@@ -78,6 +78,8 @@ if (isset($_POST['edit'])) {
                 <input type="submit" value="Sửa" name="edit" class="btn-add">
             </div>
         </form>
+    </div>
+    <?php include './footer.php' ?>
 </body>
 
 </html>
