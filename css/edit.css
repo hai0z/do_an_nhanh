@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'Merge';
+    font-family: 'Merge1';
     src: url('../asset/font/MergeBlack.woff');
 }
 body {
-    font-family: "Merge", sans-serif;
+    font-family: 'Merge1', sans-serif;
     margin: 0;
     padding: 0;
     background-color: snow;
@@ -41,7 +41,7 @@ form{
     font-size: 16px;
     color: #161616;
     outline: none;
-    font-family: "Merge", sans-serif;
+    font-family: "Merge1";
 
 }
 .btn-add{
@@ -54,7 +54,7 @@ form{
     font-size: 16px;
     cursor: pointer;
     outline: none;
-    font-family: "Merge", sans-serif;
+    font-family: "Merge1";
 }
 .btn-add:hover{
     opacity: 0.9;

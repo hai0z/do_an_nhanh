@@ -17,6 +17,7 @@ body {
   ::-webkit-scrollbar-thumb {
     background: #ca1133; 
   }
+  
 .main{
    min-height: 100vh;
    max-width: 960px;

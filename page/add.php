@@ -36,14 +36,17 @@ if (isset($_POST['add'])) {
             <div class="form-group">
                 <label for="name">Tên Đồ Ăn</label> <br>
                 <input type="text" name="name" id="name" placeholder="Tên Đồ Ăn" class="form-inp" required>
+                <span class="border"></span>
             </div>
             <div class="form-group">
                 <label for="price">Giá</label><br>
                 <input type="number" name="price" id="price" placeholder="Giá" class="form-inp" required>
+                <span class="border"></span>
             </div>
             <div class="form-group">
                 <label for="image">Ảnh</label> <br>
                 <input type="file" name="image" id="image" class="form-inp" required>
+                <span class="border"></span>
             </div>
             <div class="form-group">
                 <?php if (isset($success) && $success) : ?>
